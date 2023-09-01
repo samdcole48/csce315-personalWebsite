@@ -1,0 +1,46 @@
+body {
+    background-color: #050505;
+}
+/*background-attachment: fixed; should be used to make a background-image stay consistent for the entire page, without this it will make a new background for each container*/
+
+.largeText {
+    color: white;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.mediumText {
+    color: white;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.smallText {
+    color: white;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.mainContainer {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.divLine {
+    position: relative;
+    margin: 20px 0;
+    content: "";
+    top: 50%; /* Position the line in the middle vertically */
+    left: 0;
+    width: 100%;
+    border-top: 1px solid white; /* Line color and style */
+}
+
+.logo {
+    width: 100px;
+}
+/*need to look into more positioning details for the logo
