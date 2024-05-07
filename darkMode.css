@@ -27,6 +27,11 @@ body {
 .mainContainer {
     width: 60%;
     margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#homePageContainer {
     padding-top: 15%;
 }
 
@@ -36,7 +41,7 @@ body {
     content: "";
     top: 50%; /* Position the line in the middle vertically */
     left: 0;
-    width: 100%;
+    width: auto;
     border-top: 1px solid white; /* Line color and style */
 }
 
@@ -45,10 +50,15 @@ body {
     width:100%;
     height: 10%;
     display: inline;
+    padding-bottom: 10%;
 }
 
-.logo {
+#logo {
     width: 100px;
+}
+
+#logoContainer {
+    float: left;
 }
 /*need to look into more positioning details for the logo*/
 ul {
@@ -76,4 +86,100 @@ li a {
 
 li a:hover{
     text-decoration: underline;
+}
+
+li button {
+    color: #f9f9f9;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+li button:hover{
+    text-decoration: underline;
+}
+
+
+.mainContainerWithMedia {
+    display:flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.textContainer {
+    flex: 1;
+    width: auto;
+    margin: auto;
+    max-width: 50%;
+    text-align: left;
+}
+
+.textContainer a {
+    color: white;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: underline;
+}
+
+.mediaContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediaContainer img {
+    float: center;
+    max-width: 90%;
+}
+
+.pad {
+    padding-top: 5%;
+}
+
+.smallText a {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.smallText a:hover{
+    text-decoration: underline;
+}
+
+.mediumText a {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.mediumText a:hover{
+    text-decoration: underline;
+}
+
+.largeText a {
+    color: white;
+    padding: auto;
+    text-decoration: none;
+}
+
+.largeText a:hover{
+    text-decoration: underline;
+}
+
+#headshot {
+    max-width: 300px;
 }

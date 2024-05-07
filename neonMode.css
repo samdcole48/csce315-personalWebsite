@@ -1,0 +1,206 @@
+/*
+here is the current color scheme
+black #000000
+blue #007bff
+pink #E900FF
+yellow #007bff
+*/
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.largeText {
+    color: #000000;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.mediumText {
+    color: #000000;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.smallText {
+    color: #000000;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.mainContainer {
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 160px;
+}
+
+#homePageContainer {
+    padding-top: 15%;
+}
+
+/*would like the div line to not spread the hole page*/
+.divLine {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    top: 50%; /* Position the line in the middle vertically */
+    width: auto;
+    border-top: 4px solid #007bff; /* Line color and style */
+}
+
+#logo {
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-color: #007bff;
+}
+
+li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+li a {
+    color: #000000;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: #FFC600;
+}
+
+li button {
+    color: #000000;
+    margin: 0 auto;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+.pad {
+    padding-top: 5%;
+}
+
+.smallText a {
+    color: #007bff;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.smallText a:hover{
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 2px;
+}
+
+
+.mediumText a {
+    color: #007bff;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.mediumText a:hover{
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 2px;
+}
+
+.largeText a {
+    color: #007bff;
+    padding: auto;
+    text-decoration: none;
+}
+
+.largeText a:hover{
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 2px;
+}
+
+.entry {
+    display: flex;
+}
+
+.entry .mediumText {
+    flex: 1;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.entryInfo .smallText::before {
+ 
+    /* Unicode for a bullet */
+    content: "\2022";
+     
+    /* Styles for Indentation*/
+    color: #007bff;
+     
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.entry .entryInfo{
+    flex: 1;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.mainContainerWithMedia {
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mediaContainer {
+    padding-top: 8px;
+    align-items: center;
+}
+
+.mediaContainer img{
+    max-width: 100%;
+}
+
+#headshot {
+    max-width: 400px;
+}

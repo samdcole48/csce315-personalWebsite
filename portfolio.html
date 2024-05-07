@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="darkModeLogo-noBackground.png">
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="darkMode.css">
+</head>
+<body>
+    <div class="navBarContainer">
+        <ul>
+            <li id="logoContainer"><a href="index.html"><img id="logo" src="darkModeLogo-noBackground.png"></a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><button onclick="toggleStyleSheet()" type="button">Toggle Style</button></li>
+            <!--need to add styles dropdown menu, or whatever feature I want to add-->
+        </ul>
+    </div>
+    <div class="mainContainerWithMedia">
+        <div class = "textContainer">
+            <div class="largeText">Analog Devices</div>
+            <div class="largeText">Jenkins Project</div>
+            <div class="divLine"></div>
+            <div class="smallText">Enhancing our team's workflow through automated firmware testing. The final product is a system that performs static and compilation checks on the source code, compiles the firmware, executes comprehensive simulations, and runs scripts on a physical FPGA board. This entire process is seamlessly triggered with every pull request and the results are reported in the comment section of that pull request, streamlining our development cycle.</div>
+            <div class="smallText"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7095822935445147648/" target="_blank">View on Linkedin</a></div>
+        </div>
+        <div class = "mediaContainer">
+            <img src="jenkinsDiagram.png">
+        </div>>
+    </div>
+    <div class="mainContainerWithMedia">
+        <div class = "textContainer">
+            <div class="largeText">CSCE-312</div>
+            <div class="largeText">64-bit x86 CPU</div>
+            <div class="divLine"></div>
+            <div class="smallText">Designed a functioning 64-bit intel like x86 CPU from basic logic gates in Logism.</div>
+            <div class="smallText"><a href="https://github.com/samdcole48/64-bit_x86_CPU" target="_blank">View on Git</a></div>
+        </div>
+        <div class = "mediaContainer">
+            <img src="logismScreenshot.png">
+        </div>
+    </div>
+    <div class="mainContainerWithMedia">
+        <div class = "textContainer">
+            <div class="largeText">howdyhack 2022</div>
+            <div class="largeText">Space Travelers</div>
+            <div class="divLine"></div>
+            <div class="smallText">Within 24 hours we used Python and the Pygame library to create a small game about an alien travelling though space dodging obstacles.</div>
+            <div class="smallText"><a href="https://github.com/spencertlogan/HH22SpaceTravelers" target="_blank">View on Git</a></div>
+        </div>
+        <div class = "mediaContainer">
+            <img src="spaceTravelersScreenshot.png">
+        </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
